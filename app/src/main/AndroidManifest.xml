@@ -16,6 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".SplashActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".QRCodeActivity" />
+        <activity android:name=".SendImageActivity" />
+        <activity android:name=".UploadResultActivity" />
+        <activity android:name=".DashboardActivity"></activity>
     </application>
 
 </manifest>
